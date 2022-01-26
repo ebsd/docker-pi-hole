@@ -20,7 +20,7 @@ services:
       DHCP_END: 192.168.1.200
       DHCP_ROUTER: 192.168.1.250
       # If you're trying to use DHCP with --net host mode then you may have to customize this or DNSMASQ_LISTENING (https://hub.docker.com/r/pihole/pihole). 
-      INTERFACE: wlan0
+      INTERFACE: eth0
       
     # Volumes store your data between container upgrades
     volumes:
